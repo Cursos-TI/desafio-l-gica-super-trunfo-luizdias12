@@ -6,7 +6,7 @@
 // Siga os comentários para implementar cada parte do desafio.
 
 int main() {
-    
+
     printf("Cadastro das cartas Super Trunfo\n");
 
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
@@ -156,19 +156,23 @@ int main() {
     // Desenvolva a lógica de comparação entre duas cartas.
     // Utilize estruturas de decisão como if, if-else para comparar atributos como população, área, PIB, etc.
 
-    // Exemplo:
-    // if (populacaoA > populacaoB) {
-    //     printf("Cidade 1 tem maior população.\n");
-    // } else {
-    //     printf("Cidade 2 tem maior população.\n");
-    // }
+    //variavel para armazenar a cidade vencedora
+    char cidade_vencedora[50];
 
     // Exibição dos Resultados:
     // Após realizar as comparações, exiba os resultados para o usuário.
     // Certifique-se de que o sistema mostre claramente qual carta venceu e com base em qual atributo.
 
-    // Exemplo:
-    // printf("A cidade vencedora é: %s\n", cidadeVencedora);
+    printf("Populaçao cidade 1: %d\n", populacao_1);
+    printf("Populaçao cidade 2: %d\n", populacao_2);
+
+    if (populacao_1 > populacao_2) {
+        printf("Cidade 1 tem maior população.\n");
+        printf("A cidade vencedora é: %s\n", nome_cidade_1);
+    } else {
+        printf("Cidade 2 tem maior população.\n");
+        printf("A cidade vencedora é: %s\n", nome_cidade_2);
+    }
 
     return 0;
 }
