@@ -207,8 +207,8 @@ int main()
         break;
     case 2:
         printf("Atributo escolhido: Área\n");
-        printf("Área cidade 1: %d\n", area_1);
-        printf("Área cidade 2: %d\n", area_2);
+        printf("Área cidade 1: %.2f km²\n", area_1);
+        printf("Área cidade 2: %.2f km²\n", area_2);
         if (area_1 > area_2)
         {
             printf("Cidade 1 tem maior área.\n");
@@ -222,8 +222,8 @@ int main()
         break;
     case 3:
         printf("Atributo escolhido: PIB\n");
-        printf("PIB cidade 1: %d\n", pib_1);
-        printf("PIB cidade 2: %d\n", pib_2);
+        printf("PIB cidade 1: %.2f bilhões de reais\n", pib_1);
+        printf("PIB cidade 2: %.2f bilhões de reais\n", pib_2);
         if (pib_1 > pib_2)
         {
             printf("Cidade 1 tem maior PIB.\n");
@@ -252,8 +252,8 @@ int main()
         break;
     case 5:
         printf("Atributo escolhido: Densidade Populacional\n");
-        printf("Densidade Populacional cidade 1: %d\n", densidade_populacional_1);
-        printf("Densidade Populacional cidade 2: %d\n", densidade_populacional_2);
+        printf("Densidade Populacional cidade 1: %.2f pessoas/km²\n", densidade_populacional_1);
+        printf("Densidade Populacional cidade 2: %.2f pessoas/km²\n", densidade_populacional_2);
         if (densidade_populacional_1 < densidade_populacional_2)
         {
             printf("Cidade 1 possui menor Densidade Populacional.\n");
@@ -267,8 +267,8 @@ int main()
         break;
     case 6:
         printf("Atributo escolhido: PIB per capita\n");
-        printf("PIB per capita cidade 1: %d\n", pib_per_capita_1);
-        printf("PIB per capita cidade 2: %d\n", pib_per_capita_2);
+        printf("PIB per capita cidade 1: %.2f reais\n", pib_per_capita_1);
+        printf("PIB per capita cidade 2: %.2f reais\n", pib_per_capita_2);
         if (pib_per_capita_1 > pib_per_capita_2)
         {
             printf("Cidade 1 possui maior PIB per capita.\n");
@@ -282,8 +282,8 @@ int main()
         break;
     case 7:
         printf("Atributo escolhido: Super Poder\n");
-        printf("Super Poder cidade 1: %d\n", super_poder_1);
-        printf("Super Poder cidade 2: %d\n", super_poder_2);
+        printf("Super Poder cidade 1: %.2f\n", super_poder_1);
+        printf("Super Poder cidade 2: %.2f\n", super_poder_2);
         if (super_poder_1 > super_poder_2)
         {
             printf("Cidade 1 possui maior Super Poder.\n");
